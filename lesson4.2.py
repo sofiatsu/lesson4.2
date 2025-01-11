@@ -1,9 +1,10 @@
-lst_a = [2, 4, 5, 9, 1]
+lst = [0]
 
-for lst_b in lst_a:
-    if lst_a:
-        ind = sum(lst_a[0::2])
-        result = ind * lst_a[-1]
-    else:
-        result = 0
+if lst:
+    for num in lst:
+        ind = sum(lst[0::2])
+        result = ind * lst[-1]
+else:
+    result = 0
+
 print(result)
