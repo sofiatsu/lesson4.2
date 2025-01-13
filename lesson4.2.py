@@ -1,9 +1,8 @@
-lst = [0]
+lst = [1, 2, 3, 6]
 
 if lst:
     for num in lst:
-        ind = sum(lst[0::2])
-        result = ind * lst[-1]
+        result = sum(lst[0::2]) * lst[-1]
 else:
     result = 0
 
