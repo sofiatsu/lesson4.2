@@ -5,5 +5,4 @@ if lst:
         result = sum(lst[0::2]) * lst[-1]
 else:
     result = 0
-
 print(result)
